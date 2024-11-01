@@ -255,3 +255,56 @@ p,
   border: none;
 }
 
+.menu-pizza-background-repeat {
+  background-color: var(--tomato);
+  /* height: 60vh; */
+  background-image: url(https://img.freepik.com/premium-vector/drawing-pizza-with-different-toppings-it_1299084-2522.jpg);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  
+  background-size:100px;
+  background-blend-mode: multiply;
+  background-color: var(--creamYellow)
+ 
+}
+
+/* Custom style for order badges */
+.order-badge {
+  background-color: #05A357; /* UberEats green */
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.5em;
+}
+.order-badge:hover {
+  background-color: #048c4a;
+  color: #fff;
+}
+.takeout-badge {
+  background-color: #007bff; /* Blue for Takeout */
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+.order-badge .bi, .takeout-badge .bi {
+  margin-right: 0.5em;
+}
+/* Center modal vertically */
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.store-badge {
+  width: 150px; /* Adjust badge size */
+  margin: 0.5em;
+}

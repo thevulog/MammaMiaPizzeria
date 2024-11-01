@@ -105,10 +105,10 @@
               The best pizza in town made with love and tradition.
             </p>
 
-            <a href="#" class="btn btn-pastelGreen btn-lg rounded-5 m-2"
+            <a href="delivery.html" class="btn btn-pastelGreen btn-lg rounded-5 m-2"
               >Order Now</a
             >
-            <a href="#" class="btn btn-pastelYellow btn-lg rounded-5 m-2"
+            <a href="#" class="btn btn-pastelYellow btn-lg rounded-5 m-2" data-bs-toggle="modal" data-bs-target="#downloadModal""
               >Download App</a
             >
           </div>
@@ -251,6 +251,31 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+<div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-creamYellow">
+          <div class="modal-header">
+              <h5 class="modal-title" id="downloadModalLabel">Download the Mamma Mia Pizzeria App</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+              <p>Choose your app store to download:</p>
+              <!-- Google Play and Apple App Store Badges -->
+              <a href="https://play.google.com/store" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Download on Google Play" class="store-badge img-fluid">
+              </a>
+              <a href="https://www.apple.com/app-store/" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Download_on_the_App_Store_Badge_US-UK_RGB_blk.svg" alt="Download on the App Store" class="store-badge img-fluid">
+              </a>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn bg-tomato rounded-3 text-white" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
 
     <!-- Footer -->
     <footer class="bg-tomato text-center py-4">
