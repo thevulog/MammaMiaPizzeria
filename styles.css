@@ -1,14 +1,15 @@
 /* Color Palette */
 :root {
   --tomato: #c0392b; /* Updated to a darker, richer red */
+  --tomatoTint: #d34d3f;
   --white: #ffffff;
   --pastelBlue: #31959d;
   --creamYellow: #fef1d1;
   --pastelGreen: #a2e9bf;
+  --pastelGreenTint: #bbefd1;
   --pastelYellow: #fcaa23;
+  --pastelYellowTint: #fcbb51;
   --pastelOrange: #ff661e;
-
-
 }
 
 .bubbler-one-regular {
@@ -18,53 +19,45 @@
 }
 
 .noto-serif-display-400 {
-  font-family: "Noto Serif Display", serif; 
+  font-family: "Noto Serif Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 .noto-serif-display-300 {
-  font-family: "Noto Serif Display", serif; 
+  font-family: "Noto Serif Display", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 /* Global Styles */
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #fef1d1;
- 
 }
 
 .navbar {
   padding: 1rem;
   background-color: var(--tomato);
-  
-  
 }
 
-
 .navbar .navbar-toggler {
-  border-color: #ffffff; 
+  border-color: #ffffff;
 }
 .navbar .navbar-toggler:focus,
 .navbar .navbar-toggler:active,
 .navbar .navbar-toggler:hover {
-  border-color: #ffffff; 
-  outline: none; 
+  border-color: #ffffff;
+  outline: none;
 }
-
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
-
 
 .nav-link {
   font-weight: bold;
@@ -91,10 +84,8 @@ body {
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
-  background-color: rgb(192, 57, 43,0.9);
- 
+  background-color: rgb(192, 57, 43, 0.9);
 }
-
 
 .btn-light {
   color: var(--tomato);
@@ -126,8 +117,7 @@ footer h5 {
 
 .card-img-overlay {
   font-family: "Lobster", cursive;
-  background-color: rgba(0, 0,0, 0.3);
- 
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 p,
@@ -135,7 +125,8 @@ p,
   font-family: "Open Sans", sans-serif;
 }
 
-.form-control, .btn {
+.form-control,
+.btn {
   border-radius: 0;
 }
 
@@ -159,7 +150,6 @@ p,
 .btn-pastelOrange {
   background-color: var(--pastelOrange);
 }
-
 
 .menu-section {
   padding: 50px 0;
@@ -187,17 +177,11 @@ p,
   color: #c0392b;
 } */
 
-
 .material-symbols-rounded {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 96
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 96;
 }
 
 .nav-tabs .active {
-
   background-color: var(--tomato) !important;
   color: white !important;
 }
@@ -208,48 +192,39 @@ p,
   background-image: url(https://img.freepik.com/premium-vector/drawing-pizza-with-different-toppings-it_1299084-2522.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position:right -10% top 90px;
-  background-size:400px;
+  background-position: right 5% top 150px;
+  background-size: 500px;
   background-blend-mode: multiply;
-  background-color: var(--creamYellow)
- 
+  background-color: var(--creamYellow);
 }
 
 .multiply-blend-pastelGreen {
-  background-color: var(--pastelGreen); 
+  background-color: var(--pastelGreen);
   mix-blend-mode: multiply;
-  
 }
 
 .multiply-blend-pastelBlue {
-  background-color: var(--pastelblue); 
+  background-color: var(--pastelblue);
   mix-blend-mode: multiply;
-  
 }
 
 .img-fixed {
-  max-height: 380px; /* Set the desired height */
+  max-height: 300px; /* Set the desired height */
   object-fit: cover; /* Ensures the image fills the area without stretching */
   width: 100%; /* Makes the image take full width of the card */
 }
 
 .locations-quokka-background {
-
   background-color: var(--tomato);
   /* height: 60vh; */
   background-image: url(https://k40lasercutter.com/wp-content/uploads/2024/05/Free-Quokka-Iconic-Aussie-Animals-SVG-Black-and-White-SVG-Vector-File-for-Laser-Cutting-1.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position:right 10% top 30px;
-  background-size:300px;
+  background-position: right 10% top 30px;
+  background-size: 300px;
   background-blend-mode: multiply;
   background-color: var(--creamYellow);
- 
-
-  
 }
-
-
 
 .nav-tabs .nav-link.active {
   border: none;
@@ -261,16 +236,26 @@ p,
   background-image: url(https://img.freepik.com/premium-vector/drawing-pizza-with-different-toppings-it_1299084-2522.jpg);
   background-repeat: repeat;
   background-attachment: scroll;
-  
-  background-size:100px;
+
+  background-size: 100px;
   background-blend-mode: multiply;
-  background-color: var(--creamYellow)
- 
+  background-color: var(--creamYellow);
+}
+.menu-pizza-background-lg-repeat {
+  background-color: var(--tomato);
+  /* height: 60vh; */
+  background-image: url(https://img.freepik.com/premium-vector/drawing-pizza-with-different-toppings-it_1299084-2522.jpg);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: right 15% top 20%;
+  background-size: 500px;
+  background-blend-mode: multiply;
+  background-color: var(--creamYellow);
 }
 
 /* Custom style for order badges */
 .order-badge {
-  background-color: #05A357; /* UberEats green */
+  background-color: #05a357; /* UberEats green */
   color: #fff;
   font-weight: bold;
   border-radius: 8px;
@@ -294,7 +279,8 @@ p,
   display: inline-flex;
   align-items: center;
 }
-.order-badge .bi, .takeout-badge .bi {
+.order-badge .bi,
+.takeout-badge .bi {
   margin-right: 0.5em;
 }
 /* Center modal vertically */
@@ -307,4 +293,105 @@ p,
 .store-badge {
   width: 150px; /* Adjust badge size */
   margin: 0.5em;
+}
+
+@media (max-width: 1400px) {
+  .display-5 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .display-5 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .display-5 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .display-5 {
+    font-size: 0.75rem;
+  }
+}
+
+.btn-pastelGreen:hover {
+  background-color: var(--pastelGreenTint);
+  color: black;
+  opacity: 1;
+}
+
+.btn-pastelYellow:hover {
+  background-color: var(--pastelYellowTint);
+  color: black;
+}
+
+.nav-link,
+.sitemap .btn:hover,
+.sitemap .nav-item {
+  transition: opacity 0.3s ease;
+}
+
+.navbar-nav:hover .nav-link:not(:hover) {
+  opacity: 0.5;
+}
+
+.sitemap .nav-item:hover {
+  opacity: 0.5;
+}
+
+.sitemap .btn:hover {
+  opacity: 0.5;
+}
+
+.card {
+  transition: opacity 0.3s ease; /* Smooth transition for opacity changes */
+}
+
+.card-row:hover .card:not(:hover) {
+  opacity: 0.75;
+}
+
+@media (max-width: 1200px) {
+  .menu-pizza-background {
+    background-color: var(--tomato);
+    /* height: 60vh; */
+    background-image: none;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right -20% top 90px;
+    background-size: 225px;
+    background-blend-mode: multiply;
+    background-color: var(--creamYellow);
+  }
+}
+
+.btn-tomato {
+  background-color: var(--tomato);
+}
+
+.btn-tomato:hover {
+  background-color: var(--tomatoTint);
+}
+
+@media (max-width: 1200px) {
+  .img-fixed {
+    max-height: 900px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image fills the area without stretching */
+    width: 100%; /* Makes the image take full width of the card */
+  }
+}
+
+.masonry-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.masonry-row {
+  margin-bottom: 0.5rem;
 }

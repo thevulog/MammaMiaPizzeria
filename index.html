@@ -25,17 +25,32 @@
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-xl navbar-dark shadow-sm fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand text-white fs-3" href="index.html"
-          >Mamma Mia Pizzeria</a
-        >
+        <a class="navbar-brand text-white fs-3" href="index.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="48px"
+            viewBox="0 -960 960 960"
+            width="48px"
+            fill="#e8eaed"
+          >
+            <path
+              d="M480-840q97 0 187 32t167 89q12 9 18.5 21.95t6.5 26.67q0 8.38-2.5 16.84-2.5 8.45-7.5 16.54L530-156q-9 13.5-22.5 20.25T479.88-129q-14.12 0-27.5-6.5T430-156L111-637q-5.38-8.25-7.69-16.5Q101-661.75 101-670q0-13.85 6.5-26.92Q114-710 126-719q77-57 167-89t187-32Zm0 60q-92 0-168 31.5T159-671l321 484 321-484q-77-46-153.04-77.5Q571.91-780 480-780ZM370.06-565Q393-565 409-581.06q16-16.06 16-39T408.94-659q-16.06-16-39-16T331-658.94q-16 16.06-16 39T331.06-581q16.06 16 39 16Zm110 215Q503-350 519-366.06q16-16.06 16-39T518.94-444q-16.06-16-39-16T441-443.94q-16 16.06-16 39T441.06-366q16.06 16 39 16ZM480-187Z"
+            />
+          </svg>
+          Mamma Mia Pizzeria
+        </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -53,13 +68,25 @@
               <a class="nav-link text-white" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 About Us
               </a>
               <ul class="dropdown-menu bg-creamYellow">
-                <li><a class="dropdown-item" href="ourstory.html">Our Story</a></li>
-                <li><a class="dropdown-item" href="ourteam.html">Our Team</a></li>
-                <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                <li>
+                  <a class="dropdown-item" href="ourstory.html">Our Story</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ourteam.html">Our Team</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="careers.html">Careers</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -75,10 +102,14 @@
               <a class="nav-link text-white" href="event.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="delivery.html">Takeout and Delivery</a>
+              <a class="nav-link text-white" href="delivery.html"
+                >Takeout and Delivery</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="frozenpizza.html">Frozen Pizzas</a>
+              <a class="nav-link text-white" href="frozenpizza.html"
+                >Frozen Pizzas</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="giftcard.html">Gift Cards</a>
@@ -95,33 +126,41 @@
 
     <!-- Hero Section -->
     <section
-      class="hero container-fluid bg-tomato text-white text-center d-flex align-items-center justify-content-center"
+      class="hero container-fluid bg-tomato text-white text-center d-flex align-items-center"
     >
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-lg-8 mt-5">
             <h1 class="display-4">Welcome to Mamma Mia Pizzeria</h1>
             <p class="lead noto-serif-display-400">
               The best pizza in town made with love and tradition.
             </p>
 
-            <a href="delivery.html" class="btn btn-pastelGreen btn-lg rounded-5 m-2"
-              >Order Now</a
-            >
-            <a href="#" class="btn btn-pastelYellow btn-lg rounded-5 m-2" data-bs-toggle="modal" data-bs-target="#downloadModal""
-              >Download App</a
-            >
+            <div class="d-flex justify-content-center">
+              <a
+                href="delivery.html"
+                class="btn btn-pastelGreen btn-lg rounded-5 m-2 w-100"
+                >Order Now</a
+              >
+              <a
+                href="#"
+                class="btn btn-pastelYellow btn-lg rounded-5 m-2 w-sm-50 w-md-100 w-100"
+                data-bs-toggle="modal"
+                data-bs-target="#downloadModal"
+                >Download App</a
+              >
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Header Section -->
-    <section class="menu-section py-5">
+    <section class="menu-section py-4">
       <div class="container-fluid">
-        <div class="row justify-content-center">
-          <div class="col-10 col-lg-5">
-            <h1 class="text-center text-dark display-5 noto-serif-display-400">
+        <div class="row justify-content-center mb-5">
+          <div class="col-9 col-xl-6">
+            <h1 class="mb-4 noto-serif-display-300 p-2 display-4">
               True art of pizza making—<span
                 >Crafted with passion and inspired by tradition.</span
               >
@@ -131,53 +170,70 @@
 
         <!-- image section -->
 
-        <div class="row justify-content-center g-5">
-          <div class="col-3 align-self-end">
-            <img
-              src="https://images.pexels.com/photos/20616562/pexels-photo-20616562/free-photo-of-hand-of-a-man-preparing-pizza.jpeg"
-              class="img-fluid shadow-lg"
-              alt="pizza closeup"
-            />
+        <div class="container mt-5 menu-pizza-background-lg-repeat">
+          <!-- Row 1 -->
+          <div class="row masonry-row g-2 g-xl-1">
+              <div class="col-3 col-xl-2 offset-1">
+                  <img src="https://images.pexels.com/photos/15846745/pexels-photo-15846745/free-photo-of-bread-on-cutting-board.jpeg" class="masonry-image" alt="bread closeup" />
+              </div>
+              <div class="col-3 col-xl-2">
+                  <img src="https://images.pexels.com/photos/20616562/pexels-photo-20616562/free-photo-of-hand-of-a-man-preparing-pizza.jpeg" class="masonry-image" alt="preparing pizza" />
+              </div>
+              <div class="col-3 col-xl-2">
+                  <img src="https://images.pexels.com/photos/5975763/pexels-photo-5975763.jpeg" class="masonry-image" alt="pizza closeup" />
+              </div>
+              <div class="col-3 col-xl-2">
+                  <img src="https://images.pexels.com/photos/20793365/pexels-photo-20793365/free-photo-of-pizza-and-red-wine-served-in-a-restaurant.jpeg" class="masonry-image" alt="pizza and wine" />
+              </div>
+              <div class="col-3 col-xl-2 offset-1">
+                  <img src="https://images.pexels.com/photos/16614145/pexels-photo-16614145/free-photo-of-man-hands-holding-pizza.jpeg" class="masonry-image" alt="holding pizza" />
+              </div>
           </div>
-
-          <div class="col-4">
-            <img
-              src="https://images.pexels.com/photos/20793365/pexels-photo-20793365/free-photo-of-pizza-and-red-wine-served-in-a-restaurant.jpeg"
-              class="img-fluid shadow-lg"
-              alt="pizza closeup"
-            />
+      
+          <!-- Row 2 -->
+          <div class="row masonry-row">
+              <div class="col-3 col-xl-2 offset-1">
+                  <img src="https://images.pexels.com/photos/20616562/pexels-photo-20616562/free-photo-of-hand-of-a-man-preparing-pizza.jpeg" class="masonry-image" alt="preparing pizza" />
+              </div>
+              <div class="col-3 col-xl-2 ">
+                  <img src="https://images.pexels.com/photos/15846745/pexels-photo-15846745/free-photo-of-bread-on-cutting-board.jpeg" class="masonry-image" alt="bread closeup" />
+              </div>
+              <div class="col-3 col-xl-2 ">
+                  <img src="https://images.pexels.com/photos/20793365/pexels-photo-20793365/free-photo-of-pizza-and-red-wine-served-in-a-restaurant.jpeg" class="masonry-image" alt="pizza and wine" />
+              </div>
+              <div class="col-3 col-xl-2 ">
+                  <img src="https://images.pexels.com/photos/16614145/pexels-photo-16614145/free-photo-of-man-hands-holding-pizza.jpeg" class="masonry-image" alt="holding pizza" />
+              </div>
+              <div class="col-3 col-xl-2 ">
+                  <img src="https://images.pexels.com/photos/5975763/pexels-photo-5975763.jpeg" class="masonry-image" alt="pizza closeup" />
+              </div>
           </div>
-
-          <div class="col-3">
-            <img
-              src="https://images.pexels.com/photos/15846745/pexels-photo-15846745/free-photo-of-bread-on-cutting-board.jpeg"
-              class="img-fluid shadow-lg"
-              alt="pizza closeup"
-            />
+      
+          <!-- Row 3 -->
+          <div class="row masonry-row">
+              <div class="col-3 col-xl-2 ">
+                  <img src="https://images.pexels.com/photos/16614145/pexels-photo-16614145/free-photo-of-man-hands-holding-pizza.jpeg" class="masonry-image" alt="holding pizza" />
+              </div>
+              <div class="col-3 col-xl-2  offset-1">
+                  <img src="https://images.pexels.com/photos/15846745/pexels-photo-15846745/free-photo-of-bread-on-cutting-board.jpeg" class="masonry-image" alt="bread closeup" />
+              </div>
+              <div class="col-3 col-xl-2 ">
+                  <img src="https://images.pexels.com/photos/20616562/pexels-photo-20616562/free-photo-of-hand-of-a-man-preparing-pizza.jpeg" class="masonry-image" alt="preparing pizza" />
+              </div>
+              <div class="col-3 col-xl-2 ">
+                  <img src="https://images.pexels.com/photos/20793365/pexels-photo-20793365/free-photo-of-pizza-and-red-wine-served-in-a-restaurant.jpeg" class="masonry-image" alt="pizza and wine" />
+              </div>
+              <div class="col-3 col-xl-2  offset-1">
+                  <img src="https://images.pexels.com/photos/5975763/pexels-photo-5975763.jpeg" class="masonry-image" alt="pizza closeup" />
+              </div>
           </div>
-
-          <div class="col-5">
-            <img
-              src="https://images.pexels.com/photos/5975763/pexels-photo-5975763.jpeg"
-              class="img-fluid shadow-lg"
-              alt="pizza closeup"
-            />
-          </div>
-
-          <div class="col-5 align-self-lg-end">
-            <img
-              src="https://images.pexels.com/photos/16614145/pexels-photo-16614145/free-photo-of-man-hands-holding-pizza.jpeg"
-              class="img-fluid shadow-lg"
-              alt="pizza closeup"
-            />
-          </div>
-        </div>
+      </div>
         <hr class="text-dark" />
 
         <div class="row justify-content-center">
-          <div class="col-10 col-lg-5">
+          <div class="col-10 col-xl-6">
             <h2 class="text-center text-dark mb-5">Our Story</h2>
-          
+
             <p class="text-dark noto-serif-display-300 mb-5 fs-4">
               At Mamma Mia Pizzeria, we believe in the Our pizzas honor the
               authentic spirit of Neapolitan pizza, made with fresh,
@@ -186,21 +242,26 @@
               flame-kissed crust with a light crunch on the outside and a
               tender, airy center. It’s simple, natural, and full of heart—the
               way pizza was meant to be.
-        
             </p>
 
             <video
-            src="https://videos.pexels.com/video-files/19120193/19120193-uhd_2560_1440_25fps.mp4"
-            class="object-fit-scale ratio ratio-4x3"
-            autoplay
-            loop
-          ></video>
+              src="https://videos.pexels.com/video-files/19120193/19120193-uhd_2560_1440_25fps.mp4"
+              class="object-fit-scale ratio ratio-4x3"
+              autoplay
+              loop
+            ></video>
           </div>
         </div>
         <hr class="text-dark" />
-        <h2 class="text-center text-dark mb-5">Our Menu</h2>
-        <div class="row justify-content-center g-5">
-          <div class="col-2 border-end border-dark border-opacity-25">
+        <h2 class="text-center text-dark mb-xl-5">Our Menu</h2>
+
+        <!-- Menu cards -->
+
+        <!-- TO DO:: JAVASCRIPT  LINK to CARDS in menu.html -->
+        <div
+          class="row justify-content-evenly justify-content-xl-center g-1 g-sm-3 g-xl-4 card-row"
+        >
+          <div class="col-3 col-xl-2">
             <div class="card shadow-sm border-0">
               <img
                 src="https://images.pexels.com/photos/5975905/pexels-photo-5975905.jpeg"
@@ -208,11 +269,11 @@
                 alt="Antipasti"
               />
               <div class="card-img-overlay align-content-center">
-                <h5 class="display-5 text-light text-center">Antipasti</h5>
+                <h5 class="display-5 text-light text-center"><a class="text-light text-center text-decoration-none" href="menu.html#myTab">Antipasti</a></h5>
               </div>
             </div>
           </div>
-          <div class="col-2 border-end border-dark border-opacity-25">
+          <div class="col-3 col-xl-2">
             <div class="card shadow-sm border-0">
               <img
                 src="https://images.pexels.com/photos/19968430/pexels-photo-19968430/free-photo-of-pizzas-and-silverware.jpeg"
@@ -220,11 +281,11 @@
                 alt="Pizza"
               />
               <div class="card-img-overlay align-content-center">
-                <h5 class="display-5 text-light text-center">Pizza</h5>
+                <h5 class="display-5 text-light text-center"><a class="text-light text-center text-decoration-none" href="menu.html#myTab">Pizza</a></h5>
               </div>
             </div>
           </div>
-          <div class="col-2 border-end border-dark border-opacity-25">
+          <div class="col-3 col-xl-2">
             <div class="card shadow-sm border-0">
               <img
                 src="https://images.pexels.com/photos/28446440/pexels-photo-28446440/free-photo-of-caramelized-dessert-with-ice-cream-scoop-on-plate.jpeg"
@@ -232,11 +293,11 @@
                 alt="Dessert"
               />
               <div class="card-img-overlay align-content-center">
-                <h5 class="display-5 text-light text-center">Dessert</h5>
+                <h5 class="display-5 text-light text-center"><a class="text-light text-center text-decoration-none" href="menu.html#myTab">Dessert</a></h5>
               </div>
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-3 col-xl-2">
             <div class="card shadow-sm border-0">
               <img
                 src="https://images.pexels.com/photos/5934751/pexels-photo-5934751.jpeg"
@@ -244,7 +305,7 @@
                 alt="Cocktail"
               />
               <div class="card-img-overlay align-content-center">
-                <h5 class="display-5 text-light text-center">Drinks</h5>
+                <h5 class="display-5 text-light text-center"><a class="text-light text-center text-decoration-none" href="menu.html#myTab">Drinks</a></h5>
               </div>
             </div>
           </div>
@@ -253,29 +314,56 @@
     </section>
 
     <!-- Modal -->
-<div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content bg-creamYellow">
+    <div
+      class="modal fade"
+      id="downloadModal"
+      tabindex="-1"
+      aria-labelledby="downloadModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-creamYellow">
           <div class="modal-header">
-              <h5 class="modal-title" id="downloadModalLabel">Download the Mamma Mia Pizzeria App</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title" id="downloadModalLabel">
+              Download the Mamma Mia Pizzeria App
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
           <div class="modal-body text-center">
-              <p>Choose your app store to download:</p>
-              <!-- Google Play and Apple App Store Badges -->
-              <a href="https://play.google.com/store" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Download on Google Play" class="store-badge img-fluid">
-              </a>
-              <a href="https://www.apple.com/app-store/" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Download_on_the_App_Store_Badge_US-UK_RGB_blk.svg" alt="Download on the App Store" class="store-badge img-fluid">
-              </a>
+            <p>Choose your app store to download:</p>
+            <!-- Google Play and Apple App Store Badges -->
+            <a href="https://play.google.com/store" target="_blank">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="Download on Google Play"
+                class="store-badge img-fluid"
+              />
+            </a>
+            <a href="https://www.apple.com/app-store/" target="_blank">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/51/Download_on_the_App_Store_Badge_US-UK_RGB_blk.svg"
+                alt="Download on the App Store"
+                class="store-badge img-fluid"
+              />
+            </a>
           </div>
           <div class="modal-footer">
-              <button type="button" class="btn bg-tomato rounded-3 text-white" data-bs-dismiss="modal">Close</button>
+            <button
+              type="button"
+              class="btn bg-tomato rounded-3 text-white"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
           </div>
+        </div>
       </div>
-  </div>
-</div>
+    </div>
 
     <!-- Footer -->
     <footer class="bg-tomato text-center py-4">
@@ -295,7 +383,7 @@
                   class="form-control"
                   placeholder="Email Address"
                 />
-                <button class="btn btn-pastelGreen rounded-5" type="submit">
+                <button class="btn btn-pastelGreen rounded-2" type="submit">
                   Subscribe
                 </button>
               </div>
@@ -306,61 +394,83 @@
 
       <hr class="text-light" />
       <div class="container">
-        <div class="row text-center">
+        <div class="row justify-content-center justify-content-xl-start">
           <div class="col-6">
             <a class="navbar-brand text-white" href="index.html"
               ><span class="display-4">Mamma Mia Pizzeria</span></a
             >
           </div>
         </div>
-        <div class="row">
-          <div class="col-3">
+        <div class="row sitemap">
+          <div class="col-6 col-xl-3">
             <!-- sitemap nav links -->
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a
-                  
                   class="nav-link text-white"
                   aria-current="page"
-                  href="aboutus.html"
-                  >About Us</a
+                  href="ourstory.html"
+                  >Our Story</a
                 >
               </li>
+
               <li class="nav-item">
-                <a href="careers.html" class="nav-link text-white" >Careers</a>
-              </li>
-              <li class="nav-item">
-                <a href="menu.html" class="nav-link text-white" 
-                  >Menus</a
+                <a
+                  class="nav-link text-white"
+                  aria-current="page"
+                  href="ourteam.html"
+                  >Our Team</a
                 >
               </li>
+
               <li class="nav-item">
-                <a href="location.html" class="nav-link text-white" aria-disabled="true"
+                <a href="careers.html" class="nav-link text-white">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a href="menu.html" class="nav-link text-white">Menus</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="location.html"
+                  class="nav-link text-white"
+                  aria-disabled="true"
                   >Locations</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="booking.html" class="nav-link text-white" aria-disabled="true"
-                  >Bookings</a
                 >
               </li>
             </ul>
           </div>
 
-          <div class="col-3">
+          <div class="col-6 col-xl-3">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a href="event.html" class="nav-link text-white" aria-disabled="true"
+                <a
+                  href="booking.html"
+                  class="nav-link text-white"
+                  aria-disabled="true"
+                  >Bookings</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="event.html"
+                  class="nav-link text-white"
+                  aria-disabled="true"
                   >Events</a
                 >
               </li>
               <li class="nav-item">
-                <a href="delivery.html" class="nav-link text-white" aria-disabled="true"
+                <a
+                  href="delivery.html"
+                  class="nav-link text-white"
+                  aria-disabled="true"
                   >Takeout and Delivery</a
                 >
               </li>
               <li class="nav-item">
-                <a href="giftcard.html" class="nav-link text-white" aria-disabled="true"
+                <a
+                  href="giftcard.html"
+                  class="nav-link text-white"
+                  aria-disabled="true"
                   >Gift Cards</a
                 >
               </li>
@@ -375,7 +485,7 @@
             </ul>
           </div>
 
-          <div class="col-6 align-content-center">
+          <div class="col-12 col-xl-6 align-content-center">
             <!-- social media links -->
 
             <button
@@ -404,7 +514,8 @@
         <div class="row">
           <div class="col-12">
             <p class="text-white mb-0">
-              Copyright &copy; 2024 Mamma Mia Pizzeria. All rights reserved.
+              Copyright <small>&copy;</small> 2024 Mamma Mia Pizzeria. All
+              rights reserved.
             </p>
           </div>
         </div>

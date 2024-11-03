@@ -25,17 +25,32 @@
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-xl navbar-dark shadow-sm fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand text-white fs-3" href="index.html"
-          >Mamma Mia Pizzeria</a
-        >
+        <a class="navbar-brand text-white fs-3" href="index.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="48px"
+            viewBox="0 -960 960 960"
+            width="48px"
+            fill="#e8eaed"
+          >
+            <path
+              d="M480-840q97 0 187 32t167 89q12 9 18.5 21.95t6.5 26.67q0 8.38-2.5 16.84-2.5 8.45-7.5 16.54L530-156q-9 13.5-22.5 20.25T479.88-129q-14.12 0-27.5-6.5T430-156L111-637q-5.38-8.25-7.69-16.5Q101-661.75 101-670q0-13.85 6.5-26.92Q114-710 126-719q77-57 167-89t187-32Zm0 60q-92 0-168 31.5T159-671l321 484 321-484q-77-46-153.04-77.5Q571.91-780 480-780ZM370.06-565Q393-565 409-581.06q16-16.06 16-39T408.94-659q-16.06-16-39-16T331-658.94q-16 16.06-16 39T331.06-581q16.06 16 39 16Zm110 215Q503-350 519-366.06q16-16.06 16-39T518.94-444q-16.06-16-39-16T441-443.94q-16 16.06-16 39T441.06-366q16.06 16 39 16ZM480-187Z"
+            />
+          </svg>
+          Mamma Mia Pizzeria
+        </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -53,13 +68,25 @@
               <a class="nav-link text-white" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 About Us
               </a>
               <ul class="dropdown-menu bg-creamYellow">
-                <li><a class="dropdown-item" href="ourstory.html">Our Story</a></li>
-                <li><a class="dropdown-item" href="ourteam.html">Our Team</a></li>
-                <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                <li>
+                  <a class="dropdown-item" href="ourstory.html">Our Story</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ourteam.html">Our Team</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="careers.html">Careers</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -75,10 +102,14 @@
               <a class="nav-link text-white" href="event.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="delivery.html">Takeout and Delivery</a>
+              <a class="nav-link text-white" href="delivery.html"
+                >Takeout and Delivery</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="frozenpizza.html">Frozen Pizzas</a>
+              <a class="nav-link text-white" href="frozenpizza.html"
+                >Frozen Pizzas</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="giftcard.html">Gift Cards</a>
@@ -97,15 +128,10 @@
     <!-- Hero Section -->
     <section class="container-fluid bg-tomato mt-5">
       <section class="container">
-        <div class="row bg-tomato justify-content-center p-3">
-          <div class="col-6 my-5">
-            <img
-              src="https://images.pexels.com/photos/29021744/pexels-photo-29021744/free-photo-of-chef-placing-pizza-in-brick-oven-for-baking.jpeg"
-              class="img-fluid shadow-lg"
-              alt="pizza closeup"
-            />
-          </div>
-          <div class="col-6 my-5 align-content-around p-2">
+        <div
+          class="row flex-xl-row-reverse bg-tomato justify-content-center p-3"
+        >
+          <div class="col-12 col-xl-6 align-content-around p-2">
             <h1 class="display-2 text-white mt-1 p-5 text-center">
               Read our story and discover our history!
             </h1>
@@ -119,6 +145,13 @@
               >
             </div>
           </div>
+          <div class="col-12 col-xl-6 my-5">
+            <img
+              src="https://images.pexels.com/photos/29021744/pexels-photo-29021744/free-photo-of-chef-placing-pizza-in-brick-oven-for-baking.jpeg"
+              class="img-fluid shadow-lg"
+              alt="pizza closeup"
+            />
+          </div>
         </div>
       </section>
     </section>
@@ -128,9 +161,9 @@
       <div class="row bg-creamYellow justify-content-center p-3"></div>
     </section>
 
-    <section class="container locations-quokka-background" id="locations">
+    <section class="container menu-pizza-background" id="locations">
       <div class="row">
-        <div class="col-8">
+        <div class="col-12 col-xl-8">
           <h2
             class="text-left mb-4 noto-serif-display-300 p-2 pt-5 display-4"
             id="history"
@@ -152,15 +185,27 @@
           </p>
 
           <p class="noto-serif-display-300">
-            As Mamma Mia Pizzeria expands to four locations across Perth, Executive Chef Vu Nguyen remains deeply rooted in the belief that pizza should be simple and crafted with passion, reflecting the rich heritage of Neapolitan flavors while celebrating the local produce and community values of Perth. After ten years of immersing himself in the art of pizza-making in Napoli, Vu brings a fresh approach to Italian classics, fusing time-honored recipes with the finest local ingredients. By balancing tradition with innovation, Mamma Mia Pizzeria invites guests to experience a taste of Napoli, thoughtfully reimagined for the Perth community.
+            As Mamma Mia Pizzeria expands to four locations across Perth,
+            Executive Chef Vu Nguyen remains deeply rooted in the belief that
+            pizza should be simple and crafted with passion, reflecting the rich
+            heritage of Neapolitan flavors while celebrating the local produce
+            and community values of Perth. After ten years of immersing himself
+            in the art of pizza-making in Napoli, Vu brings a fresh approach to
+            Italian classics, fusing time-honored recipes with the finest local
+            ingredients. By balancing tradition with innovation, Mamma Mia
+            Pizzeria invites guests to experience a taste of Napoli,
+            thoughtfully reimagined for the Perth community.
           </p>
-          <br>
-          <br>
-          <br>
+          <br />
+          <br />
+          <br />
           <div class="text-end mb-5">
-            <span ><strong class="fs-4">And so, a new chapter in Perth's food scene was born!</strong></span>
+            <span
+              ><strong class="fs-4"
+                >And so, a new chapter in Perth's food scene was born!</strong
+              ></span
+            >
           </div>
-          
         </div>
       </div>
     </section>
@@ -172,7 +217,7 @@
           <div class="col-8">
             <form action="#">
               <h5 class="display-4 text-light">Newsletter</h5>
-              <p class="text-light noto-serif-display-400">
+              <p class="text-light">
                 Get a slice of news and happenings @ Mamma Mia's!
               </p>
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
@@ -183,7 +228,7 @@
                   class="form-control"
                   placeholder="Email Address"
                 />
-                <button class="btn btn-pastelGreen rounded-5" type="submit">
+                <button class="btn btn-pastelGreen rounded-2" type="submit">
                   Subscribe
                 </button>
               </div>
@@ -194,25 +239,35 @@
 
       <hr class="text-light" />
       <div class="container">
-        <div class="row text-center">
+        <div class="row justify-content-center justify-content-xl-start">
           <div class="col-6">
-            <a class="navbar-brand text-white" href="/index.html"
+            <a class="navbar-brand text-white" href="index.html"
               ><span class="display-4">Mamma Mia Pizzeria</span></a
             >
           </div>
         </div>
-        <div class="row">
-          <div class="col-3">
+        <div class="row sitemap">
+          <div class="col-6 col-xl-3">
             <!-- sitemap nav links -->
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a
                   class="nav-link text-white"
                   aria-current="page"
-                  href="aboutus.html"
-                  >About Us</a
+                  href="ourstory.html"
+                  >Our Story</a
                 >
               </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  aria-current="page"
+                  href="ourteam.html"
+                  >Our Team</a
+                >
+              </li>
+
               <li class="nav-item">
                 <a href="careers.html" class="nav-link text-white">Careers</a>
               </li>
@@ -227,6 +282,11 @@
                   >Locations</a
                 >
               </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-xl-3">
+            <ul class="nav flex-column">
               <li class="nav-item">
                 <a
                   href="booking.html"
@@ -235,11 +295,6 @@
                   >Bookings</a
                 >
               </li>
-            </ul>
-          </div>
-
-          <div class="col-3">
-            <ul class="nav flex-column">
               <li class="nav-item">
                 <a
                   href="event.html"
@@ -275,7 +330,7 @@
             </ul>
           </div>
 
-          <div class="col-6 align-content-center">
+          <div class="col-12 col-xl-6 align-content-center">
             <!-- social media links -->
 
             <button
@@ -304,7 +359,8 @@
         <div class="row">
           <div class="col-12">
             <p class="text-white mb-0">
-              Copyright &copy; 2024 Mamma Mia Pizzeria. All rights reserved.
+              Copyright <small>&copy;</small> 2024 Mamma Mia Pizzeria. All
+              rights reserved.
             </p>
           </div>
         </div>
@@ -312,6 +368,5 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.js"></script>
   </body>
 </html>
