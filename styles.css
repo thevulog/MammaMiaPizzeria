@@ -395,3 +395,14 @@ p,
 .masonry-row {
   margin-bottom: 0.5rem;
 }
+
+
+@media (max-width: 1200px) {
+  .menu-item .fs-3 {
+      font-size: 1.2rem !important;/
+  }
+  
+  .menu-item p {
+      font-size: 0.9rem !important;
+  }
+}
